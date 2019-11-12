@@ -14,30 +14,6 @@ public class Personnel {
 		this.personnel.add(employe);		
 	}
 	
-	public void ajouterEmploye(Vendeur employe) {
-		this.personnel.add(employe);		
-	}
-	
-	public void ajouterEmploye(Representant employe) {
-		this.personnel.add(employe);		
-	}
-	
-	public void ajouterEmploye(Manutentionnaire employe) {
-		this.personnel.add(employe);		
-	}
-	
-	public void ajouterEmploye(Technicien employe) {
-		this.personnel.add(employe);		
-	}
-	
-	public void ajouterEmploye(TechnARisque​ employe) {
-		this.personnel.add(employe);		
-	}
-	
-	public void ajouterEmploye(ManutARisque employe) {
-		this.personnel.add(employe);		
-	}
-	
 	public void afficherSalaires() {
 		for (int i = 0; i < personnel.size(); i++) {
 			System.out.println(personnel.get(i).getNom() + " gagne " + personnel.get(i).calculerSalaire() + ".");
